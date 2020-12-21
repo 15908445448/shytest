@@ -1,0 +1,14 @@
+{
+    "name": "shy/src",
+    "description": "shy",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shy\\Shytest\\": "src/"
+        }
+    }
+}
